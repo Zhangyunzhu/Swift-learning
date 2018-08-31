@@ -19,4 +19,12 @@ class Person: NSObject {
         }
     }
     
+    
+    var title :String{
+        //只重写了getter方法没重写setter方法及为只读属性
+        return "Topus" + (name ?? "")
+    }
+    
+    
+    
 }
